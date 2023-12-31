@@ -3,6 +3,15 @@
 version = 3
 
 [[package]]
+name = "_template"
+version = "0.1.0"
+dependencies = [
+ "nannou",
+ "pretty_env_logger",
+ "vergen",
+]
+
+[[package]]
 name = "ab_glyph_rasterizer"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -712,15 +721,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c31b6d751ae2c7f11320402d34e41349dd1016f8d5d45e48c4312bc8625af50c"
 dependencies = [
  "byteorder",
-]
-
-[[package]]
-name = "gen2024_01"
-version = "0.1.0"
-dependencies = [
- "nannou",
- "pretty_env_logger",
- "vergen",
 ]
 
 [[package]]
