@@ -715,10 +715,11 @@ dependencies = [
 ]
 
 [[package]]
-name = "gen2024_01"
+name = "gen2024_05"
 version = "0.1.0"
 dependencies = [
  "nannou",
+ "once_cell",
  "pretty_env_logger",
  "vergen",
 ]

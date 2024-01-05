@@ -1,4 +1,4 @@
 [workspace]
-members = ["gen2024-01"]
+members = ["gen2024-05"]
 
 resolver = "2"
