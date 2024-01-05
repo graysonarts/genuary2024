@@ -1,8 +1,9 @@
 use std::cell::Cell;
 
 use crate::{
-    framework::*, ACCCENT_COLOR, BLACK_COLOR, BORDER_SIZE, OFFSET_END, OFFSET_START, SIZE,
-    UNIT_SIZE,
+    framework::*,
+    settings::{BORDER_SIZE, OFFSET_END, OFFSET_START, SIZE},
+    ACCCENT_COLOR, BLACK_COLOR, UNIT_SIZE,
 };
 use nannou::{
     prelude::*,
