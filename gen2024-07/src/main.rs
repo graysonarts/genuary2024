@@ -36,7 +36,7 @@ fn update(_app: &App, model: &mut Model, update: Update) {
     model.blue_angle = cycle_angle(model.blue_angle, model.blue_speed);
     model.cycle = cycle_cycle(model.cycle + 0.01);
 
-    if update.since_start.as_secs() > 10 {
+    if update.since_start.as_secs() > 5 {
         model.recording = false
     }
 }
